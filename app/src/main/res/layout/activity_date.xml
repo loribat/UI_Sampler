@@ -1,0 +1,53 @@
+<!-- FILE:  activity_date.xml -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mycompany.uisampler.DateActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/lblDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/currentDateLabel"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/defaultDateString"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <DatePicker
+       android:layout_width="wrap_content"
+       android:layout_height="0dp"
+       android:layout_weight="2"
+       android:id="@+id/datePicker"
+       android:calendarViewShown="false"
+       android:datePickerMode="spinner"
+       android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/btnChangeDate"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight=".4"
+        android:onClick="changeDateButtonClicked"
+        android:text="@string/dateButtonLabel"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffffcaef"
+        android:layout_marginBottom="10dp" />
+
+</LinearLayout>

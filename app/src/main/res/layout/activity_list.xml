@@ -1,0 +1,31 @@
+<!-- LADOT: 
+			activity_list.xml
+		Layout for the List Activity
+		Contains a List Fragment and a Back Button
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+	<fragment
+        android:name="com.mycompany.uisampler.MyListFragment"
+        android:id="@+id/list_activity_listfrag"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="20dp"
+        tools:layout="@layout/simple_list_item_activated_1" />
+
+    <Button
+        android:id="@+id/listActivityBackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="returnToMain"
+        android:text="@string/backButtonLabel"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffffcaef"
+        android:layout_margin="10dp" />
+</LinearLayout>

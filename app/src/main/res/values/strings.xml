@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UI Sampler</string>
+    <string name="action_settings">Settings</string>
+    <string name="actionBar_chooseDessert">Choose Dessert</string>
+    <string name="CD">CD</string>
+
+    <string-array name="activities_list">
+        <item>Select Date</item>
+        <item>Enter Text</item>
+        <item>Choose Dessert</item>
+    </string-array>
+
+    <string-array name="desserts_list">
+        <item>Cupcake</item>
+        <item>Donut</item>
+        <item>Gingerbread</item>
+        <item>Ice Cream</item>
+        <item>Jelly Bean</item>
+    </string-array>
+
+
+    <!-- Add strings for Activity Titles -->
+    <string name="title_activity_date">Select Date</string>
+    <string name="title_activity_keyboard">Enter Text</string>
+    <string name="title_activity_list">Choose Dessert</string>
+
+    <!-- Add strings for the SaveDateConfirmDialog -->
+    <string name="dialog_save_date">Are You Sure You Want to Save This Date?</string>
+    <string name="yesSaveDate">Yes</string>
+    <string name="noSaveDate">No</string>
+
+    <!-- Add strings for Date Activity -->
+    <string name="dateButtonLabel">Set Date</string>
+    <string name="defaultDateString">September 10, 1963</string>
+    <string name="currentDateLabel">Currently Selected Date</string>
+
+    <!-- Add strings for Main Activity -->
+    <string name="selectActivityLabel">What Do You Want To Do?</string>
+    <string name="enterTextLabel">Enter Some Text Here</string>
+    <string name="goButtonLabel">GO</string>
+
+    <!-- Add strings for List Activity (also used by Keyboard Activity) -->
+    <string name="backButtonLabel">Back</string>
+
+    <!-- Add strings for Keyboard Activity -->
+    <string name="hideButtonLabel">Hide</string>
+    <string name="textLabel1">Enter First Block of Text Here</string>
+    <string name="textLabel2">Enter Second Block of Text Here</string>
+    <string name="textLabel3">Enter Third Block of Text Here</string>
+
+    <!-- Add strings for Action Bar / Menu Items -->
+    <string name="dateMenuItem">Date</string>
+    <string name="textMenuItem">Text</string>
+    <string name="dessertMenuItem">Dessert</string>
+
+
+</resources>
